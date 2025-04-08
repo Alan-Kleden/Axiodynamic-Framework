@@ -1,0 +1,33 @@
+actor_id,phase_id,label,principle,phi,theta_deg,color
+A,1,Initiative to collaborate,P2.1,5.0,2,blue
+A,1,Need for Support,P2.5,3.6,10,green
+A,1,Fear of Refusal,P3.2,1.1,175,red
+A,1,Strategic deference,P3.5,0.9,135,orange
+B,1,Receptivity to proposal,P4.2,3.0,15,blue
+B,1,Collaborative intention,P4.4,2.0,20,green
+B,1,Emotional vigilance,P1.3,2.0,120,red
+B,1,Cautious restraint,P1.1,3.0,135,orange
+A,2,Proposal structure,P2.5,3.0,10,blue
+A,2,Reassurance through shared benefit,P4.4,3.0,15,green
+A,2,Deference signals to prevent pressure,P3.5,2.0,130,red
+A,2,Emotional attentiveness to B's reactions,P3.2,2.0,120,orange
+B,2,Active listening,P4.2,2.0,15,blue
+B,2,Intellectual engagement,P4.4,2.0,20,green
+B,2,Anticipatory discomfort,P1.1,3.0,140,red
+B,2,Inner doubt about clarity of role,P1.3,2.0,130,orange
+A,3,Empathic reformulation of proposal,P4.3,3.0,15,blue
+A,3,Softening the tone and reducing pressure,P3.1,2.0,20,green
+A,3,Inhibition of further role assignment,P3.5,3.0,130,red
+A,3,Concern about relational rupture,P1.1,2.0,150,orange
+B,3,Recognition of A's empathic effort,P4.3,3.0,10,blue
+B,3,Hopeful openness,P4.1,2.0,15,green
+B,3,Residual reserve,P1.1,2.0,140,red
+B,3,Uncertainty about expected involvement,P1.3,2.0,135,orange
+A,4,Final collaborative proposal,P2.1,4.0,5,blue
+A,4,Reassurance through mutual value,P4.4,3.0,10,green
+A,4,Inhibition of ambition or overreach,P3.5,1.0,140,red
+A,4,Emotional vigilance,P1.1,1.0,130,orange
+B,4,Commitment to limited collaboration,P4.4,3.0,10,blue
+B,4,Appreciation of A's respect,P4.1,2.0,15,green
+B,4,Strategic reserve (residual),P1.1,1.0,130,red
+B,4,Identity vigilance,P1.3,1.0,140,orange
