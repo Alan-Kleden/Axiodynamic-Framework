@@ -1,15 +1,25 @@
 # Case Study – Vectorial Affective Dynamics
 
-This folder contains the full case study associated with the article *"Affective Forces and the Structure of Interaction"*.
+This folder contains all data and code used for the full case study presented in the article  
+**"Affective Forces and the Structure of Interaction: A Telotopic Model of Negentropic Organization"**.
 
 ## Contents
 
-- `actor_phase_diagrams/` — 8 vectorial plots representing the affective state of two actors (A and B) across 4 phases.
-- `generate_diagrams.py` — the Python script that produced the diagrams.
-- This README.
+- `generate_diagrams.py`  
+  Script used to generate the diagrams for each phase and actor.
 
-## Notes
+- `vectors.csv`  
+  Contains the vectorial data for Fc and Fi (by actor, label, intensity, and angle), sequenced across four interactional phases.
 
-Each plot shows Fc and Fi vectors, labeled and scaled, projected against a shared telos. The evolution is diachronic and actor-specific.
+- `config.csv`  
+  Contains configuration parameters: telos direction, label formatting, color codes, axis scaling, etc.
 
+- `actor_phase_diagrams/`  
+  Output folder containing 8 diagrams (4 phases × 2 actors).
 
+## How to use
+
+To regenerate all diagrams:
+
+```bash
+python generate_diagrams.py
