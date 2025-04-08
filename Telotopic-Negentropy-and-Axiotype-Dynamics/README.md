@@ -1,20 +1,42 @@
 # Telotopic Negentropy and Axiotype Dynamics
 
-This folder contains scripts, tools, and visual outputs related to the modeling of telotopic organization through axiodynamic principles.
+This folder contains scripts, data, and visualizations for the article  
+**"Affective Forces and the Structure of Interaction: A Telotopic Model of Negentropic Organization"**.
 
-The telotopic approach models collective affective alignment using vectorial representations of conative (Fc) and inhibitory (Fi) forces, oriented toward a shared telos. Negentropy is used as a metric for coherence and directional convergence across individuals and interactional phases.
+The telotopic framework models affective decision-making by representing conative (Fc) and inhibitory (Fi) forces as vectors oriented toward a shared telos.  
+Telotopic negentropy is used as a metric for coherence and directional alignment over the course of interactions.
 
-## Subfolders
+---
 
-### 📁 `negentropy_evolution/`
+## 📁 Subfolders
 
-This subfolder includes:
+### 🔹 `negentropy_evolution/`
 
-- A Python script to compute and visualize telotopic negentropy across multiple phases of a social interaction.
-- A resulting figure that illustrates the evolution of alignment over time.
-- A local README detailing the logic of the script and how to reproduce the output.
+Contains:
+- A script to compute and plot negentropy evolution across phases.
+- A figure showing diachronic alignment coherence.
+- A local README.
 
-## Author
+### 🔹 `case_study/`
 
-Alan Kleden  
-April 2025
+Includes:
+- `generate_diagrams.py` — main script generating 8 vectorial diagrams (4 phases × 2 actors).
+- `vectors.csv` and `config.csv` — input data.
+- `actor_phase_diagrams/` — 8 output `.png` plots.
+- A local README.
+
+### 🔹 `angle_projection_demo/`
+
+Demonstrates:
+- The geometric projection of affective vectors onto the telos.
+- Includes a Python script and illustrative output for angle Θ.
+- A local README.
+
+---
+
+## 📦 Installation
+
+To install the required Python packages:
+
+```bash
+pip install -r requirements.txt
